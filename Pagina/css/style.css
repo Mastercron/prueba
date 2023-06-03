@@ -1,0 +1,76 @@
+/*Aplica estilos a todos los elementos de la etiqueta p.*/
+
+p {
+  color: blue;
+}
+
+/*Aplica estilos a todos los elementos con la clase destacado.*/
+.destacado {
+  font-weight: bold;
+}
+
+/*Aplica estilos a un elemento con ID titulo*/
+#titulo {
+  font-size: 24px;
+}
+
+
+/*Aplica estilos de color de texto y fondo a los elementos con la clase destacado*/
+
+.destacado {
+  color: white;
+  background-color: blue;
+}
+
+
+/*Aplica estilos de tamaño de fuente a los elementos con la clase caja*/
+.caja {
+  margin: 10px;
+  padding: 20px;
+}
+
+/*Aplica estilos de margen y relleno a los elementos con la clase caja*/
+
+.caja {
+  margin: 10px;
+  padding: 20px;
+}
+
+
+/*Aplica estilos de modelo de caja a los elementos con la clase caja*/
+
+.caja {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: lightgray;
+}
+
+
+/*Aplica estilos al modulo de caja fexible llamado Flexbox a los elementos con la clase contenedor*/
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Aplica estilos de css Grid a todos los elementos con la clase contenedor*/
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

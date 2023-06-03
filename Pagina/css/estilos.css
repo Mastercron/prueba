@@ -1,0 +1,72 @@
+.nav{
+       height: 60px;
+       background-color:#17181C;
+       text-align: center;
+     }
+
+
+/* Estilos para el elemento con clase "boton" */
+.boton{
+	background-color:#456788;
+	color: white;
+	border: none;
+	padding: 16px;
+	font-size: 18.5px;
+	cursor: pointer;
+}
+
+/* Estilos para el elemento con clase "links y los link" */
+.links a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 13px;
+}
+
+/* Estilos para el elemento con clase "links" */
+.links{
+	background-color: #f9f9f9;
+	width: 185px;
+	display: none;
+}
+
+/* Estilos para el elemento con clase "links y los link para que cambien de fondo" */
+.links a:hover {
+	background-color: #f1f1f1;
+}
+
+.desplegable:hover .links{
+	display: block;
+}
+
+.desplegable{
+	position: relative;
+}
+
+/* Estilos para los elementos con clase "destacado" */
+.destacado {
+	color: white;
+	background-color: blue;
+}
+
+/* Estilos para el elemento con ID "titulo" */
+#titulo {
+	font-size: 32px;
+}
+
+/* Estilos para la clase "caja" y modelo de caja */
+.caja {
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	margin: 10px;
+	border: 1px solid black;
+	background-color: lightgray;
+}
+
+/* Estilos para el contenedor con clase "contenedor" y flexbox */
+.contenedor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
